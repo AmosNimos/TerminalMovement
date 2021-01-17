@@ -50,6 +50,8 @@ while True:
 		exit()
 	os.system('clear')
 	display()
+	if debug == "":
+		print("press w,a,s,d key")
 	print(keypress)
 	print(debug)
 
