@@ -44,6 +44,10 @@ while True:
 	if keypress == 's':
 		yy+=1;
 		debug = "Move Down"
+	if keypress == '\x1b'
+		debug = "Exit"
+		print(debug)
+		exit()
 	os.system('clear')
 	display()
 	print(keypress)
